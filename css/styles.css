@@ -129,7 +129,7 @@ a {
   color: var(--color-brand);
 }
 .site-link {
-  display: flex;
+  display: inline-flex;
   margin-left: auto;
 }
 .site-link .item:not(:last-child) {
@@ -155,25 +155,16 @@ a {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-  fill: var(--color-secondary);
-}
-
-.contacts-link .mail:focus,
-.contacts-link .mail:hover {
-  fill: var(--color-brand);
+  fill: currentColor;
 }
 
 .contacts-link .smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-  fill: var(--color-secondary);
+  fill: currentColor;
 }
 
-.contacts-link .smartphone:focus,
-.contacts-link .smartphone:hover {
-  fill: var(--color-brand);
-}
 /* Hero section */
 
 .hero-section {
