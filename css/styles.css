@@ -532,6 +532,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+
   max-width: 44px;
   max-height: 44px;
   background-color: var(--color-light-three);
